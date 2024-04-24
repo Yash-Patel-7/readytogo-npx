@@ -2,13 +2,23 @@
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
-		"declaration": true,
 		"outDir": "dist",
+		"rootDir": "src",
+		"sourceMap": true,
+		"declarationMap": true,
+		"declaration": true,
 		"strict": true,
+		"noUncheckedIndexedAccess": true,
 		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"allowJs": true,
+		"checkJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
 		"forceConsistentCasingInFileNames": true
 	},
-	"include": ["src/**/*.ts"],
-	"exclude": ["src/**/*.test.ts"]
+	"include": ["src/**/*"],
+	"exclude": ["src/**/*.test.*"]
 }
 
